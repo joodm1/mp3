@@ -11,14 +11,14 @@
             box-sizing: border-box;
           font-family: "Nanum Myeongjo", serif; /* Sets the font for the entire document to "Nanum Myeongjo," a serif typeface */
 
-        }      .eacher {
+        }
+
+
+        .eacher {
                  display: inline-block; /* Allows the `.eacher` element to maintain its block-like properties while still flowing inline, enabling content to wrap around it. */
                  /* Adds space below each `.eacher` element, relative to the height of its container. */
                  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height, preventing layout issues. */
-                 /* Adds a left margin to move the `.eacher` element 18% away from the left side of the container. */
-                 /* Adds space above the `.eacher` element, creating vertical separation. */
-                 /* Adds space to the right of the `.eacher` element, allowing for some spacing between elements if they're aligned horizontally. */
-                 margin: 5% 5% 5% 18%;
+               margin: 5% 5% 5% 18%;
 
                }
 
@@ -60,7 +60,6 @@
         .ed .eacher {
           display: block; /* The `.eacher` elements within the `.ed` container behave as block-level elements, taking up the full width of their container. */
           margin: 5% 4% 0% 18%; /* Adds a top margin of 5%, right margin of 4%, no bottom margin, and a left margin of 18%, which may cause significant indentation from the left. */
-          box-sizing: border-box; /* Ensures that padding and borders are included in the element's total width and height. This prevents the element from unexpectedly expanding beyond its designated size. */
         }
 
         .ed .eacher h4 {
@@ -84,6 +83,12 @@
           .wrappar .eacher{
 
             margin-top: 15%;
+          }
+
+          .ed h1 {
+
+            margin-left: 0; /* Adds a left margin of 5%, which may cause some offset if the text is intended to be centered. Consider using `margin: auto;` for more consistent centering. */
+
           }
 
 
