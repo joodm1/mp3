@@ -1,5 +1,5 @@
 
-import angelina from '../../assets/media/angelina.jpeg';
+import angelina from '../../../public/angelina.jpeg';
 
 // const StyledH1 = styled.h1`
 //     padding: 0;

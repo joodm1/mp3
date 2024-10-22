@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import "../Styler.css"; // Your external CSS file with the .eacher class
 
-import chess from '../../assets/media/chess.jpg';
-import conf from '../../assets/media/conf.jpg';
-import me from '../../assets/media/Me.jpg';
-import living from '../../assets/media/living.jpg';
-import journal from '../../assets/media/journal.jpg';
+import chess from '../../../public/chess.jpg';
+import conf from '../../../public/conf.jpg';
+import me from '../../../public/Me.jpg';
+import living from '../../../public/living.jpg';
+import journal from '../../../public/journal.jpg';
 
 
 const StyledH1=styled.h1`

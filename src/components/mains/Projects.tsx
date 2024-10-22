@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useState } from "react";
-import Vid1D from '../../assets/media/Vid1DSecond.mp4';
+import Vid1D from '../../../public/Vid1DSecond.mp4';
 const StyledProjects = styled.div`
     display: flex;
     flex-direction: column;
@@ -159,11 +159,11 @@ export default function Projects() {
                     <br />
 
                     <StyledButtons>
-                        <button className="button-64"><span onClick={mypow}>Power (**)</span></button>
-                        <button className="button-64"><span onClick={add}>Add (+)</span></button>
-                        <button className="button-64"><span onClick={sub}>Subtract (-)</span></button>
-                        <button className="button-64"><span onClick={mult}>Multiply (*)</span></button>
-                        <button className="button-64"><span onClick={clr}>Clear</span></button>
+                        <button className="button-64" onClick={mypow}><span >Power (**)</span></button>
+                        <button className="button-64" onClick={add}><span >Add (+)</span></button>
+                        <button className="button-64" onClick={sub}><span >Subtract (-)</span></button>
+                        <button className="button-64" onClick={mult}><span >Multiply (*)</span></button>
+                        <button className="button-64" onClick={clr}><span >Clear</span></button>
                     </StyledButtons>
 
                     <div

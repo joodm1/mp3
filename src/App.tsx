@@ -1,5 +1,5 @@
 import {Routes, Route, RouterProvider, createBrowserRouter} from "react-router-dom";
-import styled, { createGlobalStyle } from 'styled-components'; // Import createGlobalStyle
+import styled  from 'styled-components'; // Import createGlobalStyle
 import Nav from './components/Nav';
 import Home from './components/mains/Home.tsx';
 import Banner from './components/Banner';
