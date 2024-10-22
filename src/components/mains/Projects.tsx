@@ -127,6 +127,7 @@ export default function Projects() {
         setOutput(0);
     };
 
+    // @ts-ignore
     return (
         <> {/*learned this froma youtube tutorial i didn't cheat y'all here it the link
             https://www.youtube.com/watch?v=RIDA6elhmBU
@@ -168,8 +169,9 @@ export default function Projects() {
 
                     <div
                         style={{
-                            color: output < 0 ? "red" : "white" // Turns red if output is negative
-                        }}
+                           color: output !== null && output < 0  ? "red" : "white" // Turns red if output is negative
+
+                       // it forced me to put the null even though it was working just fine without it }}
                     >
                         Result: {output}
                     </div>
