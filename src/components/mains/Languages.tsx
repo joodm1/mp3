@@ -1,19 +1,6 @@
-import "../Styler.css";
+
 import styled from "styled-components";
 
-const StyledH1 = styled.h1`
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    font-size: calc(10px + 3vw);
-
-
-    @media screen and (max-width: 750px) {
-
-       margin-left: 2%;
-    }
-`;
 
 const StyledP = styled.p`
     text-align: center;
@@ -31,8 +18,12 @@ const StyledH3 = styled.h3`
 export default function Languages() {
     return (
         <>
+            <div>
+
+
             <div className="ed">
-                <StyledH1>Languages</StyledH1>
+                <h1> Languages </h1>
+
                 <StyledP>
                     Over the course of my studies and personal projects, I’ve gained experience with various programming
                     languages, each with its own strengths and typical use cases. Here’s an overview of the languages I code
@@ -111,6 +102,7 @@ export default function Languages() {
                         great choice for scalable web applications.
                     </StyledP2>
                 </div>
+            </div>
             </div>
         </>
     );

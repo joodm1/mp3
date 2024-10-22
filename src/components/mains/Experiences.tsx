@@ -1,6 +1,4 @@
 
-import "../Styler.css";
-
 export default function Experiences() {
 
 

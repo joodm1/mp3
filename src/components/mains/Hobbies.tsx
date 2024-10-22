@@ -1,18 +1,13 @@
 import styled from 'styled-components';
-import "../Styler.css"; // Your external CSS file with the .eacher class
 
-import chess from '../../../public/chess.jpg';
-import conf from '../../../public/conf.jpg';
-import me from '../../../public/Me.jpg';
-import living from '../../../public/living.jpg';
-import journal from '../../../public/journal.jpg';
 
 
 const StyledH1=styled.h1`
     text-align: center; /* Centers the \`h1\` element text horizontally within its container. */
     margin-top: 5%; /* Adds a 5% top margin, creating vertical spacing from the element above. */
     margin-bottom: 5%; /* Adds a 5% bottom margin, separating it from content below. */
-    font-size: calc(10px + 3vw); 
+    
+  margin-left: 10%;
 `;
 
 export default function Hobbies() {
@@ -26,8 +21,8 @@ export default function Hobbies() {
                 <div className="eacher">
                     <h3>Going to See Abandoned Places</h3>
                     <p id="hobbies">
-                        <img src={me} alt="selfie of me at an abandoned broken office" />
-                        <img src={living} alt="abandoned living room" />
+                        <img src={`https://cs-people.bu.edu/jood2002/media/Me.jpg`} alt="selfie of me at an abandoned broken office" />
+                        <img src={`https://cs-people.bu.edu/jood2002/media/living.jpg`} alt="abandoned living room" />
                     </p>
                     <p>
                         This picture is of me in an abandoned house, one of my favorite recent adventures!! Made sure
@@ -56,7 +51,7 @@ export default function Hobbies() {
                 {/* Hobby 2: Painting */}
                 <div className="eacher">
                     <h3>Painting</h3>
-                    <p><img src={journal} alt="drawing" /></p>
+                    <p><img src={`https://cs-people.bu.edu/jood2002/media/journal.jpg`} alt="drawing" /></p>
                     <p>
                         I've always loved drawing, especially when I was younger, but my journey into painting was more
                         of a push than a natural progression. In school, we were required to use acrylics as part of the
@@ -77,7 +72,7 @@ export default function Hobbies() {
                 {/* Hobby 3: Chess */}
                 <div className="eacher">
                     <h3>Chess</h3>
-                    <p><img src={chess} alt="Chess Set" /></p>
+                    <p><img src={`https://cs-people.bu.edu/jood2002/media/chess.jpg`} alt="Chess Set" /></p>
                     <p>
                         I worked hard on my chess skills this summer and managed to improve my score by 400 points!
                         However, I eventually hit a "wall" and became so frustrated that I swore to God I wouldn’t play
@@ -90,7 +85,7 @@ export default function Hobbies() {
                 {/* Hobby 4: Reading */}
                 <div className="eacher">
                     <h3>Reading</h3>
-                    <p><img src={conf} alt="the book" /></p>
+                    <p><img src={`https://cs-people.bu.edu/jood2002/media/conf.jpg`} alt="the book" /></p>
                     <p>
                         Though I have an extremely hard time reading and paying attention, I read everything from
                         behavioral economics to Soviet history. I'm currently reading this book while I still have some

@@ -1,4 +1,3 @@
-import "../Styler.css";
 
 export default function Education() {
     return (

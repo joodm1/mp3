@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useState } from "react";
-import Vid1D from '../../../public/Vid1DSecond.mp4';
+
 const StyledProjects = styled.div`
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ export default function Projects() {
             https://www.youtube.com/watch?v=RIDA6elhmBU
             */}
             <VideoBackground autoPlay muted loop>
-                <source src={Vid1D} type="video/mp4" />
+                <source src={`https://cs-people.bu.edu/jood2002/media/Vid1DSecond.mp4`} type="video/mp4" />
                 Your browser does not support the video tag.
             </VideoBackground>
             <StyledProjects>

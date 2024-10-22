@@ -1,6 +1,4 @@
 
-import angelina from '../../../public/angelina.jpeg';
-
 // const StyledH1 = styled.h1`
 //     padding: 0;
 //     margin:0;
@@ -37,7 +35,7 @@ export default function Home() {
                     <h1>Home</h1>
 
                 <div className="eacher">
-                    <img src={angelina} alt="Me allegedly :)"/>
+                    <img src={`https://cs-people.bu.edu/jood2002/media/angelina.jpeg`} alt="Me allegedly :)"/>
 
                     <div className="intro-text">
                         <p>Hi! My name is Jood Alasiri. I'm a student at Boston University studying Computer
